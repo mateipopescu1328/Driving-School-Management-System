@@ -48,29 +48,36 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel_top = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label_role = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label_role = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.EXIT_but = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label_totalStd = new System.Windows.Forms.Label();
             this.panel_slide.SuspendLayout();
             this.panel_instructorsubmenu.SuspendLayout();
             this.panel_sedintasubmenu.SuspendLayout();
             this.panel_elevsubmenu.SuspendLayout();
             this.panel_logo.SuspendLayout();
             this.panel_top.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_slide
             // 
+            this.panel_slide.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.panel_slide.AutoScroll = true;
             this.panel_slide.BackColor = System.Drawing.SystemColors.Highlight;
+            this.panel_slide.Controls.Add(this.EXIT_but);
             this.panel_slide.Controls.Add(this.panel_instructorsubmenu);
             this.panel_slide.Controls.Add(this.button_instructori);
             this.panel_slide.Controls.Add(this.panel_sedintasubmenu);
@@ -80,7 +87,7 @@
             this.panel_slide.Controls.Add(this.panel_logo);
             this.panel_slide.Location = new System.Drawing.Point(2, 2);
             this.panel_slide.Name = "panel_slide";
-            this.panel_slide.Size = new System.Drawing.Size(200, 705);
+            this.panel_slide.Size = new System.Drawing.Size(200, 910);
             this.panel_slide.TabIndex = 0;
             // 
             // panel_instructorsubmenu
@@ -322,86 +329,54 @@
             // 
             // panel_top
             // 
+            this.panel_top.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel_top.BackColor = System.Drawing.SystemColors.Highlight;
             this.panel_top.Controls.Add(this.pictureBox1);
             this.panel_top.Controls.Add(this.label3);
             this.panel_top.Location = new System.Drawing.Point(199, 2);
             this.panel_top.Name = "panel_top";
-            this.panel_top.Size = new System.Drawing.Size(682, 100);
+            this.panel_top.Size = new System.Drawing.Size(981, 100);
             this.panel_top.TabIndex = 1;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(161, 39);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(239, 39);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Școala de șoferi";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label_role);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 548);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(883, 100);
-            this.panel1.TabIndex = 2;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Driving_School.Properties.Resources.scoala_de_soferi_1119992921;
-            this.pictureBox2.Location = new System.Drawing.Point(199, 102);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(682, 446);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = global::Driving_School.Properties.Resources.unnamed;
-            this.pictureBox1.Location = new System.Drawing.Point(550, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(849, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(131, 98);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // label4
+            // label3
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(199, 20);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 23);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "ROL:";
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(161, 39);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(236, 38);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Școala de șoferi";
             // 
-            // label_role
+            // panel1
             // 
-            this.label_role.AutoSize = true;
-            this.label_role.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_role.Location = new System.Drawing.Point(277, 20);
-            this.label_role.Name = "label_role";
-            this.label_role.Size = new System.Drawing.Size(63, 22);
-            this.label_role.TabIndex = 1;
-            this.label_role.Text = "Admin";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(595, 20);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(197, 23);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Număr studenți activi:";
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.panel1.Controls.Add(this.label_totalStd);
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.label_role);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Location = new System.Drawing.Point(0, 753);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1182, 100);
+            this.panel1.TabIndex = 2;
             // 
             // label6
             // 
@@ -412,15 +387,106 @@
             this.label6.Size = new System.Drawing.Size(0, 22);
             this.label6.TabIndex = 3;
             // 
+            // label5
+            // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(894, 20);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(197, 23);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Număr studenți activi:";
+            // 
+            // label_role
+            // 
+            this.label_role.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label_role.AutoSize = true;
+            this.label_role.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_role.Location = new System.Drawing.Point(277, 20);
+            this.label_role.Name = "label_role";
+            this.label_role.Size = new System.Drawing.Size(63, 22);
+            this.label_role.TabIndex = 1;
+            this.label_role.Text = "Admin";
+            // 
+            // label4
+            // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(199, 20);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(60, 23);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "ROL:";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.Image = global::Driving_School.Properties.Resources.scoala_de_soferi_1119992921;
+            this.pictureBox2.Location = new System.Drawing.Point(349, 204);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(682, 446);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Location = new System.Drawing.Point(199, 2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(983, 851);
+            this.panel2.TabIndex = 4;
+            // 
+            // EXIT_but
+            // 
+            this.EXIT_but.BackColor = System.Drawing.SystemColors.Highlight;
+            this.EXIT_but.Dock = System.Windows.Forms.DockStyle.Top;
+            this.EXIT_but.FlatAppearance.BorderSize = 0;
+            this.EXIT_but.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EXIT_but.Location = new System.Drawing.Point(0, 673);
+            this.EXIT_but.Name = "EXIT_but";
+            this.EXIT_but.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.EXIT_but.Size = new System.Drawing.Size(200, 51);
+            this.EXIT_but.TabIndex = 8;
+            this.EXIT_but.Text = "EXIT";
+            this.EXIT_but.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.EXIT_but.UseVisualStyleBackColor = false;
+            this.EXIT_but.Click += new System.EventHandler(this.EXIT_but_Click);
+            // 
+            // label7
+            // 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(997, 20);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(0, 22);
+            this.label7.TabIndex = 4;
+            // 
+            // label_totalStd
+            // 
+            this.label_totalStd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label_totalStd.AutoSize = true;
+            this.label_totalStd.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_totalStd.Location = new System.Drawing.Point(997, 21);
+            this.label_totalStd.Name = "label_totalStd";
+            this.label_totalStd.Size = new System.Drawing.Size(0, 22);
+            this.label_totalStd.TabIndex = 5;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(883, 648);
+            this.ClientSize = new System.Drawing.Size(1182, 853);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel_top);
             this.Controls.Add(this.panel_slide);
+            this.Controls.Add(this.panel2);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainForm";
@@ -432,10 +498,10 @@
             this.panel_logo.PerformLayout();
             this.panel_top.ResumeLayout(false);
             this.panel_top.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -470,6 +536,10 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label_role;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button EXIT_but;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label_totalStd;
     }
 }
 
